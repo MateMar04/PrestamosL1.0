@@ -6,4 +6,12 @@ public class Localidad {
         this.nombre = nombre;
         this.provincia = provincia;
     }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public Provincia getProvincia() {
+        return provincia;
+    }
 }

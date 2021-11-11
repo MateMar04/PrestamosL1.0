@@ -4,4 +4,8 @@ public class Autor {
     public Autor(String nombre) {
         this.nombre = nombre;
     }
+
+    public String getNombre() {
+        return nombre;
+    }
 }

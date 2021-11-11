@@ -4,4 +4,8 @@ public class Editorial {
     public Editorial(String nombre) {
         this.nombre = nombre;
     }
+
+    public String getNombre() {
+        return nombre;
+    }
 }

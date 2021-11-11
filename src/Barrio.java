@@ -6,4 +6,12 @@ public class Barrio {
         this.nombre = nombre;
         this.localidad = localidad;
     }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public Localidad getLocalidad() {
+        return localidad;
+    }
 }

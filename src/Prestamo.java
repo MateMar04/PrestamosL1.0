@@ -19,4 +19,12 @@ public class Prestamo {
     public Cliente getCliente(){
         return cliente;
     }
+
+    public String getFechaInicio() {
+        return fechaInicio;
+    }
+
+    public String getFechaDevolucion() {
+        return fechaDevolucion;
+    }
 }
