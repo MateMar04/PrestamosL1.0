@@ -31,4 +31,15 @@ public abstract class Publicacion {
     public int getCantidadDePrestamos() {
         return cantidadDePrestamos;
     }
+
+    @Override
+    public String toString() {
+        return "Publicacion{" +
+                "titulo='" + titulo + '\'' +
+                ", autor=" + autor +
+                ", editorial=" + editorial +
+                ", categoria=" + categoria +
+                ", cantidadDePrestamos=" + cantidadDePrestamos +
+                '}';
+    }
 }

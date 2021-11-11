@@ -27,4 +27,14 @@ public class Prestamo {
     public String getFechaDevolucion() {
         return fechaDevolucion;
     }
+
+    @Override
+    public String toString() {
+        return "Prestamo{" +
+                "fechaInicio='" + fechaInicio + '\'' +
+                ", fechaDevolucion='" + fechaDevolucion + '\'' +
+                ", cliente=" + cliente +
+                ", lista=" + lista +
+                '}';
+    }
 }

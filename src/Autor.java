@@ -8,4 +8,11 @@ public class Autor {
     public String getNombre() {
         return nombre;
     }
+
+    @Override
+    public String toString() {
+        return "Autor{" +
+                "nombre='" + nombre + '\'' +
+                '}';
+    }
 }

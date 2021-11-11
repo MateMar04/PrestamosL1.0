@@ -26,4 +26,14 @@ public class Cliente {
     public Direccion getDireccion() {
         return direccion;
     }
+
+    @Override
+    public String toString() {
+        return "Cliente{" +
+                "nombre='" + nombre + '\'' +
+                ", numeroTelefono='" + numeroTelefono + '\'' +
+                ", mail='" + mail + '\'' +
+                ", direccion=" + direccion +
+                '}';
+    }
 }

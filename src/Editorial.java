@@ -8,4 +8,11 @@ public class Editorial {
     public String getNombre() {
         return nombre;
     }
+
+    @Override
+    public String toString() {
+        return "Editorial{" +
+                "nombre='" + nombre + '\'' +
+                '}';
+    }
 }

@@ -20,4 +20,13 @@ public class Direccion {
     public Barrio getBarrio() {
         return barrio;
     }
+
+    @Override
+    public String toString() {
+        return "Direccion{" +
+                "calle='" + calle + '\'' +
+                ", nombreCalle='" + nombreCalle + '\'' +
+                ", barrio=" + barrio +
+                '}';
+    }
 }

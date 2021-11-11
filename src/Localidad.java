@@ -14,4 +14,12 @@ public class Localidad {
     public Provincia getProvincia() {
         return provincia;
     }
+
+    @Override
+    public String toString() {
+        return "Localidad{" +
+                "nombre='" + nombre + '\'' +
+                ", provincia=" + provincia +
+                '}';
+    }
 }

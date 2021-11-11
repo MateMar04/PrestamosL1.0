@@ -14,4 +14,12 @@ public class Barrio {
     public Localidad getLocalidad() {
         return localidad;
     }
+
+    @Override
+    public String toString() {
+        return "Barrio{" +
+                "nombre='" + nombre + '\'' +
+                ", localidad=" + localidad +
+                '}';
+    }
 }

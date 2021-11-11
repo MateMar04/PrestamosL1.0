@@ -8,4 +8,11 @@ public class Provincia {
     public String getNombre() {
         return nombre;
     }
+
+    @Override
+    public String toString() {
+        return "Provincia{" +
+                "nombre='" + nombre + '\'' +
+                '}';
+    }
 }
