@@ -8,4 +8,16 @@ public class Direccion {
         this.nombreCalle = nombreCalle;
         this.barrio = barrio;
     }
+
+    public String getCalle() {
+        return calle;
+    }
+
+    public String getNombreCalle() {
+        return nombreCalle;
+    }
+
+    public Barrio getBarrio() {
+        return barrio;
+    }
 }

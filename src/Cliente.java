@@ -10,4 +10,20 @@ public class Cliente {
         this.mail = mail;
         this.direccion = direccion;
     }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getNumeroTelefono() {
+        return numeroTelefono;
+    }
+
+    public String getMail() {
+        return mail;
+    }
+
+    public Direccion getDireccion() {
+        return direccion;
+    }
 }

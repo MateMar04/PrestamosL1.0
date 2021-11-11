@@ -11,4 +11,12 @@ public class Prestamo {
         this.fechaDevolucion = fechaDevolucion;
         this.cliente = cliente;
     }
+
+    public ArrayList<Publicacion> getPublicaciones(){
+        return lista;
+    }
+
+    public Cliente getCliente(){
+        return cliente;
+    }
 }
