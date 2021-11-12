@@ -42,10 +42,12 @@ public class main {
         p2.agregarPublicacion(r1);
         biblioteca.prestarPublicacion(p1);
         biblioteca.prestarPublicacion(p2);
+        System.out.println("Listado de publicaciones: " + biblioteca.getPublicaciones());
         System.out.println("Cantidad de publicaciones: " + biblioteca.cantidadPublicaciones());
         System.out.println("Cantidad de clientes: " + biblioteca.cantidadClientes());
         System.out.println("Cantidad de libros: " + biblioteca.cantLibros());
         System.out.println("Cantidad de revistas: " + biblioteca.cantRevistas());
+        System.out.println("Listado de prestamos: " + biblioteca.getPrestamos());
         System.out.println("Cantidad de prestamos: " + biblioteca.cantidadPrestamos());
         System.out.println("Clientes con prestamos de libros: " + biblioteca.clientesConPrestamoLibro());
         System.out.println("Barrios con prestamos: " + biblioteca.barriosConPrestamos());
