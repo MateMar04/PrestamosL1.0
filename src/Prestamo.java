@@ -4,19 +4,20 @@ public class Prestamo {
     private final String fechaInicio;
     private final String fechaDevolucion;
     private final Cliente cliente;
-    private ArrayList<Publicacion> lista;
+    private final ArrayList<Publicacion> lista;
 
     public Prestamo(String fechaInicio, String fechaDevolucion, Cliente cliente) {
         this.fechaInicio = fechaInicio;
         this.fechaDevolucion = fechaDevolucion;
         this.cliente = cliente;
+        this.lista = new ArrayList<>();
     }
 
-    public ArrayList<Publicacion> getPublicaciones(){
+    public ArrayList<Publicacion> getPublicaciones() {
         return lista;
     }
 
-    public Cliente getCliente(){
+    public Cliente getCliente() {
         return cliente;
     }
 
@@ -26,6 +27,10 @@ public class Prestamo {
 
     public String getFechaDevolucion() {
         return fechaDevolucion;
+    }
+
+    void agregarPublicacion(Publicacion p) {
+        lista.add(p);
     }
 
     @Override

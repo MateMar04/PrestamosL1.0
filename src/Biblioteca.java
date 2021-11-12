@@ -2,11 +2,15 @@ import java.util.ArrayList;
 
 public class Biblioteca {
     private final String nombre;
-    private ArrayList<Publicacion> publicaciones;
-    private ArrayList<Prestamo> prestamos;
+    private final ArrayList<Publicacion> publicaciones;
+    private final ArrayList<Prestamo> prestamos;
+    private final ArrayList<Cliente> clientes;
 
     public Biblioteca(String nombre) {
         this.nombre = nombre;
+        publicaciones = new ArrayList<Publicacion>();
+        prestamos = new ArrayList<Prestamo>();
+        clientes = new ArrayList<Cliente>();
     }
 
     void agregarPublicacion(Publicacion publicacion) {
@@ -17,12 +21,20 @@ public class Biblioteca {
         prestamos.add(prestamo);
     }
 
+    void agregarCliente(Cliente cliente) {
+        clientes.add(cliente);
+    }
+
     public int cantidadPrestamos() {
         return prestamos.size();
     }
 
     public int cantidadPublicaciones() {
         return publicaciones.size();
+    }
+
+    public int cantidadClientes() {
+        return clientes.size();
     }
 
     public int cantLibros() {
